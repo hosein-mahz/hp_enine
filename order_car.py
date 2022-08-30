@@ -54,7 +54,7 @@ def hp_Engine(hp,engine_information):
     for x in hp:
         # print(x["hp"])
         for y in engine_information:
-            # print(y["hp_enine"])
+            # print(y[" "])
             if x["id_engine"] == y['id_engine']:
                 total_hp =(y["base_engine_hp"]+y["turbo_hp"]+y["heathers_hp"]) 
                 # print(total_hp)
